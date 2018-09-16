@@ -6,6 +6,8 @@ server:
       cookie:
         name: UISESSION
 security:
+  basic:
+    enabled: false
   oauth2:
     client:
       clientId: SampleClientId
